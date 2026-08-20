@@ -10,8 +10,9 @@ const stack = [
   'Sass',
   'Less',
   'Tailwind CSS',
+  'Hybrid APP',
+  'React Native',
   'Redux',
-  'Vue',
   'Angular',
   'Next.js',
   'Node.js',
@@ -44,8 +45,9 @@ const stack = [
   'Sass',
   'Less',
   'Tailwind CSS',
+  'Hybrid APP',
+  'React Native',
   'Redux',
-  'Vue',
   'Angular',
   'Next.js',
   'Node.js',
@@ -72,7 +74,7 @@ const stack = [
 ];
 
 const stats = [
-  { value: '5', suffix: '+yrs', label: 'Experience' },
+  { value: '6', suffix: 'yrs', label: 'Experience' },
   { value: '2', suffix: 'industries', label: 'Fintech · Healthtech' },
   { value: '10', suffix: '+', label: 'Technologies' },
 ];
@@ -160,10 +162,10 @@ export default function Hero() {
           {/* Left: description */}
           <div>
             <p className="font-sans text-base text-muted leading-relaxed mb-4 text-justify">
-              Frontend Engineer with 5+ years of experience in{' '}
-              <span className="text-ink font-600">FinTech & HealthTech</span>. Currently leading an
-              enterprise platform at China Minsheng Bank serving{' '}
-              <span className="text-ink font-600">30,000+ daily users</span> across{' '}
+              Frontend Engineer with 6 years of experience in{' '}
+              <span className="text-ink font-600">FinTech & HealthTech</span>. Currently leading the
+              front-end development of an enterprise platform at China Minsheng Bank serving{' '}
+              <span className="text-ink font-600">40K+ daily users</span> across{' '}
               <span className="text-ink font-600">25+ integrated applications</span>. Proficient in{' '}
               <span className="text-ink font-600">React</span>,{' '}
               <span className="text-ink font-600">TypeScript</span>, and{' '}
@@ -172,14 +174,12 @@ export default function Hero() {
               <span className="text-ink font-600">LLM integration</span>.
             </p>
             <p className="font-sans text-base text-muted leading-relaxed mb-6 text-justify">
-              Beyond engineering, I drive projects from{' '}
-              <span className="text-ink font-600">ideation to production</span> — from conceiving
-              and incubating an enterprise-wide Service Desk (now handling 1,200+ tickets/month) to
-              coordinating <span className="text-ink font-600">cross-team</span> Business Continuity
-              programmes across 25+ application teams. I care about{' '}
-              <span className="text-ink font-600">scalable architecture</span>,{' '}
-              <span className="text-ink font-600">reusable component systems</span>, and building
-              things that last.
+              I take <span className="text-ink font-600">strong ownership</span> of projects from
+              ideation to production, having led{' '}
+              <span className="text-ink font-600">4 key projects</span> to successful delivery
+              within 2 years. I enjoy turning ideas into{' '}
+              <span className="text-ink font-600">production-ready</span> solutions. I care about
+              scalable architecture, reusable component systems, and building things that last.
             </p>
 
             {/* Social links */}
